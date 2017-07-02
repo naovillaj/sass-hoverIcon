@@ -3,160 +3,261 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sass hover icons</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	<div id="general">
 		<header>
-			<img src="assets/img/evolving_google_identity_3x2.max-1200x800.jpg" alt="google">
+			<img src="assets/img/googleDesign.png" alt="google">
 			<nav>
 				<ul>
 					<li><a href="#">LIBRARY</a></li>
 					<li><a href="#">NEWS</a></li>
-					<li><a href="#">SOURCES</a></li>
+					<li><a href="#">RESOURCES</a></li>
 					<li><a href="#">JOBS</a></li>
 					<li><a href="#">ABOUT</a></li>
 				</ul>
 			</nav>
 		</header>
-		<section id="postcast">
+		<section id="podcast">
 			<img src="assets/img/Method_Podcast_E1_Jay_Wong_.max-4000x2000.jpegquality-90.png" alt="podcast">
-			<div>
-				<h3>Method Postcast, Episode 1</h3>
-				<h6>Prototyping, tools, and designers who code: A conversation with Jay Wong of Project Fi</h6>
-				<p>Hosted by interaction Designer Aidan Simpson, the Method podcast profiles designers at Google, giving listeners an inside look at their journeys and design choices. In the first episode, Aidan interviews UX Design Lead Jay Wong about her experience working as a designer with a computer science degree, some of the design decisions and challenges her team tackles on Project Fi, and much, much more.</p>
-				<p>Profile</p>
+			<div class="column-lg-8">
+				<p class="section__title">Method Postcast, Episode 1</p>
+				<p class="section__subtitle">Prototyping, tools, and designers who code: A conversation with Jay Wong of Project Fi</p>
+				<p class="section__body">Hosted by interaction Designer Aidan Simpson, the Method podcast profiles designers at Google, giving listeners an inside look at their journeys and design choices. In the first episode, Aidan interviews UX Design Lead Jay Wong about her experience working as a designer with a computer science degree, some of the design decisions and challenges her team tackles on Project Fi, and much, much more.</p>
+				<p class="section__name">Profile</p>
 			</div>
 		</section>
 		<hr>
 		<section id="newsfeed">
 			<h3>Newsfeed</h3>
-			<div>
-				<p>06/13/2017</p>
-				<h4>A New and Improved Google Design</h4>
+			<div class="column-lg-6 column-xs-6 section__b">
+				<p class="section__b--fecha">06/13/2017</p>
+				<p class="p">A New and Improved Google Design</p>
 				<img src="assets/img/GoogleDesign_new_YZwLdXV.jpg" alt="Design">
-				<p>We've got a fresh, new look! Now it's easier than ever to find the articles, news, and tools you love right from the homepage. Take a few minutes to explore our new story collections for in depth insights on everything from branding to SPAN, and visit our new and improved jobs page to find out what it's really like to work with us. We've got a few more surprises in store, so sign up for our newsletter...</p>
+				<p class="section__b--body">We've got a fresh, new look! Now it's easier than ever to find the articles, news, and tools you love right from the homepage. Take a few minutes to explore our new story collections for in depth insights on everything from branding to SPAN, and visit our new and improved jobs page to find out what it's really like to work with us. We've got a few more surprises in store, so sign up for our newsletter...</p>
 			</div>
-			<div>
-				<div>					
-					<p>06/05/2017</p>
-					<h4>Join the Material Gallery Early Adopter Program</h4>
-					<p>Like staying of the curve when it comes to design tools? Meet Gallery, a design collaboration app that makes it easy to find, present, and discuss work  from a shared, central place. Brought to you by Material Design...</p>
-				</div>
-				<div>					
-					<p>06/08/2017</p>
-					<h4>Google Design Medium Round-Up</h4>
-					<p>Check out a handful of our latest and greatest Medium articles: Learn how Google redesigned over 2,000 emoji to make them more expressive than ever; Watch the top design talks from I/O 2017 in our Definitive Design...</p>
-				</div>
-				<div>					
-					<p>05/10/2017</p>
-					<h4>Material Components for Android, iOS, and the Web</h4>
-					<p>LMaking Material just got easier. The new Material Components site features a library of components and expanded documentation that let you build easily for Android, iOS, and the web using open-source code. The...</p>
+			<div class="column-lg-6 column-xs-6 section__b">
+				<div>
+					<p class="section__b--fecha">06/05/2017</p>
+					<p class="p">Join the Material Gallery Early Adopter Program</p>
+					<p class="section__b--body">Like staying of the curve when it comes to design tools? Meet Gallery, a design collaboration app that makes it easy to find, present, and discuss work  from a shared, central place. Brought to you by Material Design...</p>
 				</div>
 				<div>
-					<p>Want to stay up-to-date with Google Design?</p>
-					<p><a href="#">Sign up for our Newsletter</a></p>
-					<img src="assets/img/gdlogo.png" alt="gd">
+					<p class="section__b--fecha">06/08/2017</p>
+					<p class="p">Google Design Medium Round-Up</p>
+					<p class="section__b--body">Check out a handful of our latest and greatest Medium articles: Learn how Google redesigned over 2,000 emoji to make them more expressive than ever; Watch the top design talks from I/O 2017 in our Definitive Design...</p>
 				</div>
-			</div>			
+				<div>
+					<p class="section__b--fecha">05/10/2017</p>
+					<p class="p">Material Components for Android, iOS, and the Web</p>
+					<p class="section__b--body">Making Material just got easier. The new Material Components site features a library of components and expanded documentation that let you build easily for Android, iOS, and the web using open-source code. The...</p>
+				</div>
+				<div class="box">
+					<div class="box__div">
+						<p class="box__b--body">Want to stay up-to-date with Google Design?</p>
+						<p class="box__b--body"><a href="#">Sign up for our Newsletter</a></p>
+					</div>
+					<div class="box__img">
+						<img class="img" src="assets/img/gdlogo.png" alt="gd">
+					</div>
+				</div>
+			</div>
 		</section>
 		<hr>
-		<section id="images1">
-			<div class="column-xs-6">
+		<section class="images">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/connectivity_culture_and_cre.max-1200x800.jpegquality-90_Ds0BHpi.jpg" alt="connectivity">
-				<h4>Connectivity, Culture, and Credit</h4>
-				<p>Nine ways designers can be more emphatic and effective when creating products for emerging markets</p>
-				<p>Guide</p>
+				<p class="images1__div--p">Connectivity, Culture, and Credit</p>
+				<p class="images1__div--d">Nine ways designers can be more emphatic and effective when creating products for emerging markets</p>
+				<p class="images1__div--g">Guide</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/170612_IO_2017_Migration_IO_.max-1200x800.jpegquality-90.png" alt="coverage">
-				<h4>I/O 2017 Design Coverage</h4>
-				<p>Get the most out #io17 with our guide to designer-focused events and talks</p>
-				<p><span><img src="assets/img/icon-redirection.png" alt=""></span>medium.com</p>
+				<p class="images1__div--p">I/O 2017 Design Coverage</p>
+				<p class="images1__div--d">Get the most out #io17 with our guide to designer-focused events and talks</p>
+				<p class="images1__div--g"><span><img src="assets/img/icon-redirection.png" alt=""></span>medium.com</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__div">
+				<img src="assets/img/building_better_design_cultu.max-1200x800.jpegquality-90.jpg" alt="connectivity">
+				<p class="images1__div--p">Building Better Design Culture</p>
+				<p class="images1__div--d">A conversation with Google's Mike Buzzard on creativity, career advancement, and criteria for success</p>
+				<p class="images1__div--g">Editorial</p>
+			</div>
+			<div class="column-xs-6 column-lg-6 images1__div">
+				<img src="assets/img/agi_3x2.max-1200x800.jpegquality-90.jpg" alt="coverage">
+				<p class="images1__div--p">Seoul: Printed Matter, Politics, and Performance</p>
+				<p class="images1__div--d">Fout studios about the current design scene in South Korea's capital</p>
+				<p class="images1__div--g"><span><img src="assets/img/icon-redirection.png" alt=""></span>medium.com</p>
+			</div>
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/daydream_3x2.max-1200x800.jpg" alt="speaking">
-				<h4>Speaking Volumes</h4>
-				<p>Best practices for designing a brand in VR</p>
-				<p>Case Study</p>
+				<p class="images1__div--p">Speaking Volumes</p>
+				<p class="images1__div--d">Best practices for designing a brand in VR</p>
+				<p class="images1__div--g">Case Study</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<hr>
-				<h4>We used the guidelines as an inspiration to go further, and spent a lot of time considering what they meant and how to put them into practice.</h4>
-				<p><span><img src="assets/img/asana_mEkIk1i.jpg" alt=""></span><span><p>Sarah Chandler</p><p>Asana: Productivity with Personality</p></span></p>
+				<p class="images1__div--p">We used the guidelines as an inspiration to go further, and spent a lot of time considering what they meant and how to put them into practice.</p>
+				<p class="images1__div--g"><span><img src="assets/img/asana_mEkIk1i.jpg" alt=""></span><span><p>Sarah Chandler</p><p>Asana: Productivity with Personality</p></span></p>
 			</div>
 		</section>
-		<hr>
-		<section id="brand">
-			<div class="column-xs-6">
-				<h4>Brand Recognition</h4>
+		<section class="brand">
+			<!-- <hr> -->
+			<div class="column-xs-6 column-lg-6 brand__div1">
+				<p class="">Brand Recognition</p>
 			</div>
-			<div class="column-xs-6">
-				<a href="#">VIEW COLLECTION</a>
+			<div class="column-xs-6 column-lg-6 brand__div1">
+				<a class="" href="#">VIEW COLLECTION</a>
+			</div><br>
+			<div class="column-xs-4 column-lg-4 brand__div">
+				<p class="brand__div--p">From VR to hardware, this collection of articles will guide and inspire you to do your best branding work</p>
 			</div>
-			<div class="column-xs-4">
-				<p>From VR to hardware, this collection of articles will guide and inspire you to do your best branding work</p>
-			</div>
-			<div class="column-xs-4">
+			<div class="column-xs-4 column-lg-4 brand__div">
 				<img src="assets/img/daydream_3x2.max-1200x800.jpg" alt="speaking">
-				<h4>Speaking Volumes</h4>
-				<p>Best practices for designing a brand in VR</p>
-				<p>Case Study</p>
+				<p class="brand__div--p">Speaking Volumes</p>
+				<p class="brand__div--d">Best practices for designing a brand in VR</p>
+				<p class="brand__div--g">Case Study</p>
 			</div>
-			<div class="column-xs-4">
+			<div class="column-xs-4 column-lg-4 brand__div">
 				<img src="assets/img/expressing_brand_in_material_3x2.max-1200x800.jpg" alt="expressing">
-				<h4>Expressing Brand in Material</h4>
-				<p>A step-by-step guide to staying on brand while going Material</p>
-				<p>Editorial</p>
+				<p class="brand__div--p">Expressing Brand in Material</p>
+				<p class="brand__div--d">A step-by-step guide to staying on brand while going Material</p>
+				<p class="brand__div--g">Editorial</p>
 			</div>
 		</section>
 		<hr>
-		<section id="images2">
-			<div class="column-xs-6">
+		<section class="images">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/sticky_conversations_3x2.max-1200x800.jpegquality-90.jpg" alt="sticky">
-				<h4>Sticky Conversations</h4>
-				<p>Allo sticker sets balance the universal and unique</p>
-				<p>Case Study</p>
+				<p class="images1__div--p">Sticky Conversations</p>
+				<p class="images1__div--d">Allo sticker sets balance the universal and unique</p>
+				<p class="images1__div--g">Case Study</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/digital_natives_3x2_6u46x7C.max-1200x800.jpegquality-90.jpg" alt="digital">
-				<h4>No Such Thing as Offline</h4>
-				<p>Digital natives are redesigning the way we build tech one tap at a time</p>
-				<p>Editorial</p>
+				<p class="images1__div--p">No Such Thing as Offline</p>
+				<p class="images1__div--d">Digital natives are redesigning the way we build tech one tap at a time</p>
+				<p class="images1__div--g">Editorial</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/guide_to_span_la_3x2.max-1200x800.jpegquality-90.jpg" alt="digital">
-				<h4>Guide to SPAN Tokyo</h4>
-				<p>Watch archived video from our tokyo event and get to know each of the speakers, including Deyan Sudjic, Mariya Szuki, and Keiichi Tanaami</p>
-				<p>Guide</p>
+				<p class="images1__div--p">Guide to SPAN Tokyo</p>
+				<p class="images1__div--d">Watch archived video from our tokyo event and get to know each of the speakers, including Deyan Sudjic, Mariya Szuki, and Keiichi Tanaami</p>
+				<p class="images1__div--g">Guide</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__div">
 				<img src="assets/img/airbnb_3x2.max-1200x800.jpegquality-90.jpg" alt="airbnb">
-				<h4>Airbnb: Communicating Clarity and Charm</h4>
-				<p>How a trusted travel app plays host to a growing, global community</p>
-				<p>Case Study</p>
+				<p class="images1__div--p">Airbnb: Communicating Clarity and Charm</p>
+				<p class="images1__div--d">How a trusted travel app plays host to a growing, global community</p>
+				<p class="images1__div--g">Case Study</p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 div-oc">
 				<hr>
-				<h4>As the playful dots animate into Google's signature G, the subtle piano sound resolves into a G chord to match</h4>
-				<p><span><img src="assets/img/conor-o-sullivan.png" alt="man"></span><span><p>Conor O'Sullivan</p><p>Sound and Vision</p></span></p>				
+				<p class="images1__div--p">As the playful dots animate into Google's signature G, the subtle piano sound resolves into a G chord to match</p>
+				<p><span><img class="images1__div--h" src="assets/img/conor-o-sullivan.png" alt="man"></span><span><p class="images1__div--d">Conor O'Sullivan</p><p class="images1__div--d">Sound and Vision</p></span></p>
 			</div>
-			<div class="column-xs-6">
+			<div class="column-xs-6 column-lg-6 images1__clear">
 				<img src="assets/img/volume_two_3x2.max-1200x800.jpegquality-90.jpg" alt="volume">
-				<h4>Volume Two</h4>
-				<p>Explore the visual, virtual, and written culture of Tokyo and Los angeles through the work of our SPAN 2016 speakers</p>
-				<p>Editorial</p>
+				<p class="images1__div--p">Volume Two</p>
+				<p class="images1__div--d">Explore the visual, virtual, and written culture of Tokyo and Los angeles through the work of our SPAN 2016 speakers</p>
+				<p class="images1__div--g">Editorial</p>
 			</div>
 		</section>
 		<hr>
-		<section>
-			<h4>The Lastest</h4>
-			
-			
+		<section class="brand">
+			<p class="column-xs-12 column-lg-12">The Lastest</p>
+			<div class="column-xs-4 column-lg-4 brand__div">
+				<img src="assets/img/design.google_library_scroll_share_1.jpg" alt="Gdesign">
+				<p class="brand__div--d">Get to know the #GoogleDesign: Start with our it's chock full of stories,
+				guides & inspo to your projects: http://design.google/library</p>
+				<p class="brand__div--icon"><img src="assets/img/twitter.svg" alt="twitter"></p>
+			</div>
+			<div class="column-xs-4 column-lg-4 brand__div">
+				<img src="assets/img/gallery_present_2to1.png" alt="gallery">
+				<p class="brand__div--d">Like staying ahead of the curve when it comes to design tools?
+				Meet Gallery, a design collaboration app that makes it easy to find,
+			present, and discuss work from a shared, central place.</p>
+				<p class="brand__div--icon"><img src="assets/img/fb.png" alt="fb"></p>
+			</div>
+			<div class="column-xs-4 column-lg-4 brand__div">
+				<img src="assets/img/Method_Podcast_E1_Jay_Wong_.max-4000x2000.jpegquality-90.png" alt="podcast">
+				<p class="brand__div--d">To the debut if new podcast - Method in Ep1 @Aidan_simpson interviews
+				@jaylovespie on @projectfi & lots more: http://goo.gl/FPW7Kr</p>
+				<p class="brand__div--icon"><img src="assets/img/twitter.svg" alt="twitter"></p>
+			</div>
 		</section>
-
-
+		<hr>
+		<section class="images">
+			<div class="column-xs-6 column-lg-6 images1__div">
+				<img src="assets/img/span_la_3x2.max-1200x800.jpegquality-90.jpg" alt="SPAN">
+				<p class="images1__div--p">SPAN 2016: Los Angeles</p>
+				<p class="images1__div--d">Explore everything from Processing and robotics to production design at our
+				Los Angeles conference</p>
+				<p class="images1__div--g"><span><img src="assets/img/icon-redirection.png" alt="redirection"></span>design.google</p>
+			</div>
+			<div class="column-xs-6 column-lg-6 images1__div">
+				<img src="assets/img/design_is_never_done_3x2_4gN.max-1200x800.jpegquality-90.jpg" alt="materialD">
+				<p class="images1__div--p">Design Is Never Done</p>
+				<p class="images1__div--d">Material Design's new suite of tools and guidelines-all in one place</p>
+				<p class="images1__div--g">Editorial</p>
+			</div>
+			<div class="column-xs-6 column-lg-6 images1__clear">
+				<img src="https://storage.googleapis.com/gd-wagtail-prod-assets/images/material_design_awards_2016.max-4000x2000.jpegquality-90.jpg" alt="materialD">
+				<p class="images1__div--p">Material Design Awards 2016</p>
+				<p class="images1__div--d">Recognizing best-in-class designs from around the community</p>
+				<p class="images1__div--g">Editorial</p>
+			</div>
+			<div class="column-xs-6 column-lg-6 images1__div">
+				<hr>
+				<p class="images1__div--p">In celebration of the SPAN LA event, we put together a handy cheat
+				sheet of three things you might like to know about each speaker as well
+				as video links to all the talks.</p>
+				<p class="images1__div--g"><span><img src="assets/img/GD17_Favicon_192.png" alt="GM"></span><span><p>Google Design</p><p>Guide to SPAN LA</p></span></p>
+			</div>
+		</section>
+		<hr>
+		<section class="google">
+			<div class="column-xs-4 column-lg-4">
+				<h4>Google Design</h4>
+				<p>Google Design is a cooperative effort led by a group of designers,
+				writers, and developers at Google. We work across teams to publish original
+				content, produce events, and foster creative and educational partnerships that advance
+				design and technology.</p>
+			</div>
+			<div class="column-xs-4 column-lg-4">
+				<h4>Discover</h4>
+				<p>The Keyword</p>
+				<p>Material Design</p>
+				<p>Google</p>
+			</div>
+			<div class="column-xs-4 column-lg-4">
+				<h4>Connect</h4>
+				<span>
+					<p>Newsletter</p>
+					<p>Google+</p>
+					<p>Twitter</p>
+					<p>YouTube</p>
+				</span>
+				<span>
+					<p>Facebook</p>
+					<p>Medium</p>
+					<p>Dribble</p>
+				</span>
+			</div>
+		</section>
+		<hr>
+		<footer>
+			<div class="column-xs-6 column-lg-6">
+				<p><a href="www.google.com"><img src="assets/img/google-g.svg" alt="google"></a></p>
+			</div>
+			<div class="column-xs-6 column-lg-6">
+				<p>Privacy & Terms</p>
+			</div>
+		</footer>
 	</div>
-	
 </body>
 </html>
